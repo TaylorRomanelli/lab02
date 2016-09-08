@@ -35,21 +35,72 @@ void changeSize(Box box)
 
 ## What are the types of the following values?
 
-* 0             int
-* "hello"       string
-* 101           int
-* -1            int
-* true          boolean
-* "33"          string
-* 3.1415        float/double
+
+* 0                 int, double, float
+
+* "hello"           String
+
+* 101               int, double, float
+
+* -1                int, double, float
+
+* true              boolean
+
+* "33"              String
+
+* 3.1415            double, float
+
+
+
 
 ## What would you have to do to add a new field, for example one called name, to a circle object?
-I would add code to where the object circle is.
+
+
+```
+
+private String name;
+
+```
+
+
+
+
+
+
 ## Write the header for a method named send that has one parameter of type String, and does not return a value.
-public void send(String s)
-## Write the header for a method named average that has two parameters, both of type int, and returns an int value.
-public int average(int one,int two)
+
+
+```
+
+public void send(String var1)
+
+```
+
+
+
+## Write the header for a method called average that has two parameters, both of type int, and returns an int value.
+
+
+```
+
+public int average(int v1,int v2)
+
+```
+
+
+
 ## Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class.
-Pages, Pictures, Titles
+
+
+The book is an object of class Books.
+
+Or the book is a class called BluJBook and the objects are different copies of the book.
+
+
+
 ## Can an object have several different classes? Discuss.
+
+
 An object can be referenced from many classes as long as it is imported.
+
+General thought Question.
